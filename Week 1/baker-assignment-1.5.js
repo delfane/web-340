@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  exercise 1.3
+; Title:  assignment 1.5
 ; Author: Node.js Server Example creator unknown
 ; Date:   1/6/2021
 ; Modified By: Tiffany Baker
@@ -10,7 +10,7 @@
 
 //header display
 const header = require('../baker-header.js');
-console.log(header.display("Tiffany", "Baker", "exercise 1.5"));
+console.log(header.display("Tiffany", "Baker", "Assignment 1.5"));
 
 /*
  Expected output:
