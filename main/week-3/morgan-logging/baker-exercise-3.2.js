@@ -1,3 +1,32 @@
+/*
+============================================
+; Title:  exercise-3.2
+; Author: Professor Krasso
+; Date:   1/24/2021
+; Modified By: Tiffany Baker
+; Description: a node exercise displaying a message in local host.
+;===========================================
+*/
+
+//header display
+const header = require('../baker-header.js');
+console.log(header.display("Tiffany", "Baker", "exercise-3.2"));
+
+/*
+ Expected output:
+ FirstName LastName
+ <AssignmentName>
+ <Today's Date>
+
+
+ -- DISPLAYING MESSAGE --
+ displays message to local host
+
+*/
+
+//START
+
+
 var express = require("express");
 var http = require("http");
 var path =  require("path");
@@ -22,3 +51,6 @@ app.get("/", function(req, res){
 http.createServer(app).listen(3000, function() {
   console.log("Application started and listening on port %s", 3000);
 });
+
+
+//end
