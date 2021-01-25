@@ -11,6 +11,7 @@ app.set("view engine", "ejs");
 
 app.use(logger("dev"));
 
+//creates page and inputs message in the index file
 app.get("/", function(req, res){
   res.render("index", {
     message: "Hello! Welcome and salutations!"
