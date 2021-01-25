@@ -1,9 +1,10 @@
 {
-  "name": "hello-world",
+  "name": "morgan-logging",
   "author": "Tiffany Baker",
   "private": true,
   "dependencies": {
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }
