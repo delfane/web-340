@@ -10,7 +10,7 @@
 
 //header display
 const header = require('../baker-header.js');
-console.log(header.display("Tiffany", "Baker", "Assignment 1.5"));
+console.log(header.display("Tiffany", "Baker", "exercise-3.3"));
 
 /*
  Expected output:
