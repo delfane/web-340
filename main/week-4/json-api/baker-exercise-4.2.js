@@ -31,7 +31,7 @@ var app = express();
 
 app.get("/bear/:model", function(req, res) {
 
-  var id = parseInt(req.params.model, 10);
+  var model = parseInt(req.params.model, 10);
 
   res.json({
 
