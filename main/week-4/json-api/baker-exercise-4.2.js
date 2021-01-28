@@ -29,17 +29,18 @@ var http = require("http");
 
 var app = express();
 
-app.get("/customer/:id", function(req, res) {
+app.get("/bear/:model", function(req, res) {
 
-  var id = parseInt(req.params.id, 10);
+  var id = parseInt(req.params.model, 10);
 
   res.json({
 
-    firstName: "Jamie",
-    lastName: "steve",
-    employeeId: id
+    type: "polar",
+    color: "blue",
+    model: model
 
   });
+
 });
 
 http.createServer(app).listen(3000, function() {
