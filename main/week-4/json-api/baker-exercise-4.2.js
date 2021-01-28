@@ -37,7 +37,7 @@ app.get("/customer/:id", function(req, res) {
 
     firstName: "Jamie",
     lastName: "steve",
-    employeeId: "184932"
+    employeeId: id
 
   });
 });
