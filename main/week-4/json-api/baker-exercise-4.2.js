@@ -8,10 +8,6 @@
 ;===========================================
 */
 
-//header display
-const header = require('../baker-header.js');
-console.log(header.display("Tiffany", "Baker", "exercise-4.2"));
-
 /*
  Expected output:
  FirstName LastName
