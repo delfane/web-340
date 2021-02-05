@@ -1,8 +1,9 @@
 {
-  "name": "advanced-routing",
+  "name": "if-else-render",
   "author": "Tiffany Baker",
   "private": true,
   "dependencies": {
-
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
   }
 }
