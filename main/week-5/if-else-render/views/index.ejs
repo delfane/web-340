@@ -5,7 +5,7 @@
 ; Author: tiffany baker
 ; Date:   2/4/2021
 ; Modified By: Tiffany Baker
-; Description: a express exercise displaying a if else render in local host.
+; Description: a ejs webpage displaying a if else render in local host.
 ;===========================================
 
  -->
@@ -43,11 +43,11 @@
 <div class="container" role="main">
   <br><br>
 
-  <h2>Names list</h2>
+  <h2 class="bg-secondary text-light">Names list</h2>
 
   <% if(names.length > 0) { %>
       <% for (var k = 0; k < names.length; k++) { %>
-          <div class="alert alert-success"><strong><%= names[k] %></strong></div>
+          <div class="alert alert-warning text-success"><strong><%= names[k] %></strong></div>
       <% } %>
 
 
